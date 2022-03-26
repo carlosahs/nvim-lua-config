@@ -51,7 +51,6 @@ return packer.startup(function(use)
   }
 
   -- Completion
-  use "neovim/nvim-lspconfig"
   use "hrsh7th/cmp-nvim-lsp"
   use "hrsh7th/cmp-buffer"
   use "hrsh7th/cmp-path"
@@ -64,6 +63,10 @@ return packer.startup(function(use)
 
   -- Colorscheme
   use "projekt0n/github-nvim-theme"
+
+  -- LSP
+  use "neovim/nvim-lspconfig"
+  use "williamboman/nvim-lsp-installer"
 
   -- Setup configuration automatically after closing packer
   if PACKER_BOOTSTRAP then
