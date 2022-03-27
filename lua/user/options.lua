@@ -58,5 +58,5 @@ vim.opt.signcolumn = "yes"
 vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8
 
--- characters to move to next/previous line
-vim.cmd "set whichwrap+=<,>,[,],h,l"
+-- -- characters to move to next/previous line
+-- vim.cmd "set whichwrap+=<,>,[,],h,l"
