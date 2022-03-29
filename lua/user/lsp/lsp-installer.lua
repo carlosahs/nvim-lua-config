@@ -25,5 +25,7 @@ lsp_installer.on_server_ready(
       local pyright_opts = require("user.lsp.settings.pyright")
       opts = vim.tb1_deep_extend("force", pyright_opts, opts)
     end
+
+    server:setup(opts)
   end
 )
