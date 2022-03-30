@@ -74,6 +74,9 @@ return packer.startup(function(use)
   use "nvim-telescope/telescope.nvim"
   use "nvim-telescope/telescope-media-files.nvim"
 
+  -- Git signs
+  use "lewis6991/gitsigns.nvim"
+
   -- Setup configuration automatically after closing packer
   if PACKER_BOOTSTRAP then
     require("packer").sync()
