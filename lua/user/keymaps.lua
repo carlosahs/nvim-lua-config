@@ -37,10 +37,10 @@ keymap("v", "J", ":m .+1<cr>==", opts)
 keymap("v", "p", '"_dP', opts)
 
 -- Terminal navigation
-keymap("t", "<C-<leader>>l", "<C-\\><C-N><C-w>l", term_opts)
-keymap("t", "<C-<leader>>k", "<C-\\><C-N><C-w>k", term_opts)
-keymap("t", "<C-<leader>>j", "<C-\\><C-N><C-w>j", term_opts)
-keymap("t", "<C-<leader>>h", "<C-\\><C-N><C-w>h", term_opts)
+keymap("t", "<C-Space>l", "<C-\\><C-N><C-w>l", term_opts)
+keymap("t", "<C-Space>k", "<C-\\><C-N><C-w>k", term_opts)
+keymap("t", "<C-Space>j", "<C-\\><C-N><C-w>j", term_opts)
+keymap("t", "<C-Space>h", "<C-\\><C-N><C-w>h", term_opts)
 
 -- Telescope
 keymap("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", opts)
