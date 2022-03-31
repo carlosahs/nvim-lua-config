@@ -77,6 +77,9 @@ return packer.startup(function(use)
   -- Git signs
   use "lewis6991/gitsigns.nvim"
 
+  -- Lualine
+  use "nvim-lualine/lualine.nvim"
+
   -- Setup configuration automatically after closing packer
   if PACKER_BOOTSTRAP then
     require("packer").sync()
