@@ -15,11 +15,11 @@ gitsigns.setup {
       numhl = "GitSignsChangeNr", linehl = "GitSignsChangeLn"
     },
     delete = {
-      hl = "GitSignsDelete", text = "契",
+      hl = "GitSignsDelete", text = "▎",
       numhl = "GitSignsDeleteNr", linehl = "GitSignsDeleteLn"
     },
     topdelete = {
-      hl = "GitSignsDelete", text = "契",
+      hl = "GitSignsDelete", text = "▎",
       numhl = "GitSignsDeleteNr", linehl = "GitSignsDeleteLn"
     },
     changedelete = {
