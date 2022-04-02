@@ -89,19 +89,22 @@ local function lsp_keymaps(bufnr)
   )
   vim.api.nvim_buf_set_keymap(
     bufnr, "n", "[d",
-    '<cmd>lua vim.lsp.buf.goto_prev({ border = "rounded" })<CR>', opts
+    '<cmd>lua vim.lsp.diagnostic.goto_prev({ border = "rounded" })<CR>', opts
   )
   vim.api.nvim_buf_set_keymap(
-    bufnr, "n", "gl",
-    '<cmd>lua vim.lsp.buf.show_line_diagnostics({ border = "rounded" })<CR>', opts
+    bufnr,
+    "n",
+    "gl",
+    '<cmd>lua vim.lsp.diagnostic.show_line_diagnostics({ border = "rounded" })<CR>',
+    opts
   )
   vim.api.nvim_buf_set_keymap(
     bufnr, "n", "]d",
-    '<cmd>lua vim.lsp.buf.goto_next({ border = "rounded" })<CR>', opts
+    '<cmd>lua vim.lsp.diagnostic.goto_next({ border = "rounded" })<CR>', opts
   )
   vim.api.nvim_buf_set_keymap(
     bufnr, "n", "<leader>q",
-    "<cmd>lua vim.lsp.buf.setloclist()<CR>", opts
+    "<cmd>lua vim.lsp.diagnostic.setloclist()<CR>", opts
   )
 
   vim.cmd [[ command! Format execute 'lua vim.lsp.buf.formatting()' ]]
