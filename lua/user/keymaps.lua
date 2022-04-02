@@ -14,6 +14,10 @@ keymap("n", "<leader>k", "<C-w>k", opts)
 keymap("n", "<leader>j", "<C-w>j", opts)
 keymap("n", "<leader>h", "<C-w>h", opts)
 
+-- Window split
+keymap("n", "<leader>v", ":vs<CR>", opts)
+keymap("n", "<leader>s", ":sp<CR>", opts)
+
 -- Left explorer
 keymap("n", "<leader>E", ":Lex 30<cr>", opts)
 
