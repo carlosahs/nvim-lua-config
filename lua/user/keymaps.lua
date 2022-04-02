@@ -20,8 +20,11 @@ keymap("n", "<leader>J", "<C-w>J", opts)
 keymap("n", "<leader>H", "<C-w>H", opts)
 
 -- Save and quit
-keymap("n", "<leader>wq", ":wqa<CR>", opts)
-keymap("n", "<leader>ww", ":wa<CR>", opts)
+keymap("n", "<leader>wQ", ":wqa<CR>", opts)
+keymap("n", "<leader>wW", ":wa<CR>", opts)
+
+keymap("n", "<leader>wq", ":wq<CR>", opts)
+keymap("n", "<leader>ww", ":w<CR>", opts)
 
 -- Window split
 keymap("n", "<leader>v", ":vs<CR>", opts)
