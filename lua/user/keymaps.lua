@@ -14,6 +14,15 @@ keymap("n", "<leader>k", "<C-w>k", opts)
 keymap("n", "<leader>j", "<C-w>j", opts)
 keymap("n", "<leader>h", "<C-w>h", opts)
 
+keymap("n", "<leader>L", "<C-w>L", opts)
+keymap("n", "<leader>K", "<C-w>K", opts)
+keymap("n", "<leader>J", "<C-w>J", opts)
+keymap("n", "<leader>H", "<C-w>H", opts)
+
+-- Save and quit
+keymap("n", "<leader>wq", ":wqa<CR>", opts)
+keymap("n", "<leader>ww", ":wa<CR>", opts)
+
 -- Window split
 keymap("n", "<leader>v", ":vs<CR>", opts)
 keymap("n", "<leader>s", ":sp<CR>", opts)
