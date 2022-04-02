@@ -54,9 +54,9 @@ vim.opt.relativenumber = true
 vim.opt.numberwidth = 4
 vim.opt.signcolumn = "yes"
 
--- scrolling
-vim.opt.scrolloff = 8
-vim.opt.sidescrolloff = 8
+-- -- scrolling
+-- vim.opt.scrolloff = 8
+-- vim.opt.sidescrolloff = 8
 
 -- -- characters to move to next/previous line
 -- vim.cmd "set whichwrap+=<,>,[,],h,l"
