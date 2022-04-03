@@ -27,8 +27,8 @@ keymap("n", "<leader>wq", ":wq<CR>", opts)
 keymap("n", "<leader>ww", ":w<CR>", opts)
 
 -- Window split
-keymap("n", "<leader>v", ":vs<CR>", opts)
-keymap("n", "<leader>s", ":sp<CR>", opts)
+keymap("n", "<leader>wv", ":vs<CR>", opts)
+keymap("n", "<leader>ws", ":sp<CR>", opts)
 
 -- Left explorer
 keymap("n", "<leader>E", ":Lex 30<cr>", opts)
