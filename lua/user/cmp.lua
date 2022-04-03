@@ -97,7 +97,7 @@ cmp.setup {
     format = function(entry, vim_item)
       -- Kind icons
       vim_item.kind = string.format("%s", kind_icons[vim_item.kind])
-      vim.item.menu = ({
+      vim_item.menu = ({
         luasnip = "[Snippet]",
         buffer = "[Buffer]",
         path = "[Path]",
