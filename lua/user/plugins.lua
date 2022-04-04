@@ -85,6 +85,10 @@ return packer.startup(function(use)
   -- Lualine
   use "nvim-lualine/lualine.nvim"
 
+  -- Comments
+  use "numToStr/Comment.nvim"
+  use "JoosepAlviste/nvim-ts-context-commentstring"
+
   -- Setup configuration automatically after closing packer
   if PACKER_BOOTSTRAP then
     require("packer").sync()
