@@ -14,10 +14,10 @@ keymap("n", "<leader>k", "<C-w>k", opts)
 keymap("n", "<leader>j", "<C-w>j", opts)
 keymap("n", "<leader>h", "<C-w>h", opts)
 
-keymap("n", "<leader>L", "<C-w>L", opts)
-keymap("n", "<leader>K", "<C-w>K", opts)
-keymap("n", "<leader>J", "<C-w>J", opts)
-keymap("n", "<leader>H", "<C-w>H", opts)
+keymap("n", "<leader>wl", "<C-w>L", opts)
+keymap("n", "<leader>wk", "<C-w>K", opts)
+keymap("n", "<leader>wj", "<C-w>J", opts)
+keymap("n", "<leader>wh", "<C-w>H", opts)
 
 -- Save and quit
 keymap("n", "<leader>wQ", ":qa!<CR>", opts)
