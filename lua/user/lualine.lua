@@ -25,12 +25,12 @@ local diff = {
   cond = hide_in_width
 }
 
-local mode = {
-  "mode",
-  fmt = function(str)
-    return "-- " .. str .. " --"
-  end,
-}
+-- local mode = {
+--   "mode",
+--   fmt = function(str)
+--     return "-- " .. str .. " --"
+--   end,
+-- }
 
 local filetype = {
   "filetype",
@@ -74,7 +74,7 @@ lualine.setup({
   },
   sections = {
     lualine_a = { branch, diagnostics },
-    lualine_b = { mode },
+    lualine_b = {},
     lualine_c = { "filename" },
     lualine_x = { diff, spaces, "encoding", filetype },
     lualine_y = { location },
