@@ -65,6 +65,9 @@ return packer.startup(function(use)
   use "L3MON4D3/LuaSnip"
   use "rafamadriz/friendly-snippets"
 
+  -- Dev icons
+  use "kyazdani42/nvim-web-devicons"
+
   -- Colorscheme
   use "projekt0n/github-nvim-theme"
 
