@@ -6,7 +6,7 @@ end
 
 comment.setup {
   pre_hook = function(ctx)
-    local U = require "Commnet.utils"
+    local U = require "Comment.utils"
 
     local location = nil
 
