@@ -30,6 +30,9 @@ keymap("n", "<leader>ww", ":w<CR>", opts)
 keymap("n", "<leader>wv", ":vs<CR>", opts)
 keymap("n", "<leader>ws", ":sp<CR>", opts)
 
+-- Tabs
+keymap("n", "<leader>tn", ":tab new<CR>", opts)
+
 -- Left explorer
 keymap("n", "<leader>E", ":Lex 30<cr>", opts)
 
