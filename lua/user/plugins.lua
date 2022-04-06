@@ -89,6 +89,9 @@ return packer.startup(function(use)
   use "numToStr/Comment.nvim"
   use "JoosepAlviste/nvim-ts-context-commentstring"
 
+  -- Terminal
+  use "akinsho/toggleterm.nvim"
+
   -- Setup configuration automatically after closing packer
   if PACKER_BOOTSTRAP then
     require("packer").sync()
