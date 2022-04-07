@@ -92,6 +92,9 @@ return packer.startup(function(use)
   -- Terminal
   use "akinsho/toggleterm.nvim"
 
+  -- Formatting and linting
+  use "jose-elias-alvarez/null-ls.nvim"
+
   -- Setup configuration automatically after closing packer
   if PACKER_BOOTSTRAP then
     require("packer").sync()
