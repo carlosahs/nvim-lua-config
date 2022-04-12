@@ -37,10 +37,10 @@ function _G.set_terminal_keymaps()
   local opts = { noremap = true }
 
   vim.api.nvim_buf_set_keymap(0, "t", "<ESC>", [[<C-\><C-n>]], opts)
-  vim.api.nvim_buf_set_keymap(0, "t", "<C-Space>l", [[<C-\><C-n><C-w>l]], opts)
-  vim.api.nvim_buf_set_keymap(0, "t", "<C-Space>k", [[<C-\><C-n><C-w>k]], opts)
-  vim.api.nvim_buf_set_keymap(0, "t", "<C-Space>j", [[<C-\><C-n><C-w>j]], opts)
-  vim.api.nvim_buf_set_keymap(0, "t", "<C-Space>h", [[<C-\><C-n><C-w>h]], opts)
+  -- vim.api.nvim_buf_set_keymap(0, "t", "<C-b>l", [[<C-\><C-n><C-w>l]], opts)
+  -- vim.api.nvim_buf_set_keymap(0, "t", "<C-b>k", [[<C-\><C-n><C-w>k]], opts)
+  -- vim.api.nvim_buf_set_keymap(0, "t", "<C-b>j", [[<C-\><C-n><C-w>j]], opts)
+  -- vim.api.nvim_buf_set_keymap(0, "t", "<C-b>h", [[<C-\><C-n><C-w>h]], opts)
 end
 
 vim.cmd("autocmd! TermOpen term://* lua set_terminal_keymaps()")
