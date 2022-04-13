@@ -5,14 +5,12 @@ require("github-theme").setup({
 
   -- -- Change the "hint" and "error" colors
   -- colors = { hint = "orange", error = "#ff0000" },
-
+  --
   -- -- Overwrite the highlight groups
   -- overrides = function(c)
   --   return {
   --     htmlTag = { fg = c.red, bg = "#282c34", sp = c.hint, style = "underline" },
   --     DiagnosticHint = { link = "LspDiagnosticsDefaultHint" },
-  --     -- Remove highlight groups
-  --     TSField = {},
   --   }
   -- end
 })
