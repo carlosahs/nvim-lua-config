@@ -62,7 +62,9 @@ telescope.setup {
       },
     },
   },
-  pickers = { },
+  pickers = {
+    hidden = true,
+  },
   extensions = {
     media_files = {
       filetypes = { "png", "webp", "jpg", "jpeg" },
