@@ -18,6 +18,7 @@ null_ls.setup({
       }
     }),
     formatting.stylua,
+    formatting.black,
     diagnostics.flake8,
   },
 })
