@@ -36,7 +36,7 @@ toggleterm.setup({
 function _G.set_terminal_keymaps()
   local opts = { noremap = true }
 
-  vim.api.nvim_buf_set_keymap(0, "t", [[<C-b>]], [[<C-\><C-n>]], opts)
+  vim.api.nvim_buf_set_keymap(0, "t", [[<C-]>]], [[<C-\><C-n>]], opts)
   -- vim.api.nvim_buf_set_keymap(0, "t", "<C-b>l", [[<C-\><C-n><C-w>l]], opts)
   -- vim.api.nvim_buf_set_keymap(0, "t", "<C-b>k", [[<C-\><C-n><C-w>k]], opts)
   -- vim.api.nvim_buf_set_keymap(0, "t", "<C-b>j", [[<C-\><C-n><C-w>j]], opts)
