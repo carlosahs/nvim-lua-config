@@ -37,10 +37,10 @@ keymap("n", "<leader>tn", ":tab new<CR>", opts)
 keymap("n", "<leader>E", ":Lex 30<cr>", opts)
 
 -- Window resizing
-keymap("n", "<leader><leader>k", ":resize +2<cr>", opts)
-keymap("n", "<leader><leader>j", ":resize -2<cr>", opts)
-keymap("n", "<leader><leader>l", ":vertical resize +2<cr>", opts)
-keymap("n", "<leader><leader>h", ":vertical resize -2<cr>", opts)
+keymap("n", "<leader>+", ":resize +2<cr>", opts)
+keymap("n", "<leader>-", ":resize -2<cr>", opts)
+keymap("n", "<leader>>", ":vertical resize +2<cr>", opts)
+keymap("n", "<leader><", ":vertical resize -2<cr>", opts)
 
 -- Buffer navigation
 keymap("n", "<leader>bp", ":bprevious<cr>", opts)
