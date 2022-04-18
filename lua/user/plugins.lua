@@ -76,7 +76,10 @@ return packer.startup(function(use)
   use "williamboman/nvim-lsp-installer"
 
   -- Telescope
-  use "nvim-telescope/telescope.nvim"
+  use {
+    "nvim-telescope/telescope.nvim",
+    requires = { {"nvim-lua/plenary.nvim"} }
+  }
   use "nvim-telescope/telescope-media-files.nvim"
 
   -- Git signs
