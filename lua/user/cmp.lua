@@ -10,7 +10,7 @@ if not snip_status_ok then
   return
 end
 
-require("luasnip/loaders/from_vscode").lazy_load()
+require("luasnip.loaders.from_vscode").lazy_load()
 
 local check_backspace = function()
   local col = vim.fn.col "." - 1
@@ -52,8 +52,8 @@ cmp.setup {
     end,
   },
   mapping = {
-    ["<C-j>"] = cmp.mapping.select_prev_item(),
-    ["<C-k>"] = cmp.mapping.select_next_item(),
+    ["<C-k>"] = cmp.mapping.select_prev_item(),
+    ["<C-j>"] = cmp.mapping.select_next_item(),
     ["<C-b>"] = cmp.mapping(cmp.mapping.scroll_docs(-1), { "i", "c" }),
     ["<C-f>"] = cmp.mapping(cmp.mapping.scroll_docs(1), { "i", "c" }),
     ["<C-Space>"] = cmp.mapping(cmp.mapping.complete(), { "i", "c" }),
@@ -63,7 +63,7 @@ cmp.setup {
       c = cmp.mapping.close(),
     },
     ["<CR>"] = cmp.mapping.confirm { select = true },
-    ["<Tab>"] = cmp.mapping(
+    ["<C-n>"] = cmp.mapping(
       function(fallback)
         if cmp.visible() then
           cmp.select_next_item()
@@ -79,7 +79,7 @@ cmp.setup {
       end,
       { "i", "s" }
     ),
-    ["<S-Tab>"] = cmp.mapping(
+    ["<C-p>"] = cmp.mapping(
       function(fallback)
         if cmp.visible() then
           cmp.select_prev_item()
