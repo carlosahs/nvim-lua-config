@@ -9,7 +9,7 @@ M.setup = function()
   }
 
   for _, sign in ipairs(signs) do
-    vim.fn.sign_define(sign.name, { texth1 = sign.name, text = sign.text, numh1 = "" })
+    vim.fn.sign_define(sign.name, { texth1 = sign.name, text = sign.text, numhl = "" })
   end
 
   local config = {
