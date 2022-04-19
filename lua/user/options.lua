@@ -24,7 +24,8 @@ vim.opt.ignorecase = true
 vim.opt.pumheight = 10 
 
 -- show tabs
-vim.opt.showmode = true 
+vim.opt.showmode = false 
+vim.opt.showtabline = 2
 
 -- smart things
 vim.opt.smartcase = true
