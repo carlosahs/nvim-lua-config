@@ -27,7 +27,7 @@ keymap("n", "<leader>wq", ":q!<CR>", opts)
 keymap("n", "<leader>ww", ":w<CR>", opts)
 
 -- Reload window
-keymap("n", "<leader>wr", ":e %<CR>", opts)
+keymap("n", "<leader>wr", ":w<CR>:e %<CR>", opts)
 
 -- Window split
 keymap("n", "<leader>wv", ":vs<CR>", opts)
