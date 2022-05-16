@@ -9,7 +9,7 @@ configs.setup {
     -- disable = { "" },
     additional_vim_regex_highlighting = false,
   },
-  context_commnestring = {
+  context_commentstring = {
     enable = true,
     enable_autocmd = true,
   },
