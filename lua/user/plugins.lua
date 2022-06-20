@@ -70,7 +70,9 @@ return packer.startup(function(use)
 
   -- Colorscheme
   -- use "projekt0n/github-nvim-theme"
-  use "rafamadriz/neon"
+  -- use "rafamadriz/neon"
+  -- use "sainnhe/sonokai"
+  use "folke/tokyonight.nvim"
 
   -- LSP
   use "neovim/nvim-lspconfig"
