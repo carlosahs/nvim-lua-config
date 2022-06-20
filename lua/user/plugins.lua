@@ -69,7 +69,8 @@ return packer.startup(function(use)
   use "kyazdani42/nvim-web-devicons"
 
   -- Colorscheme
-  use "projekt0n/github-nvim-theme"
+  -- use "projekt0n/github-nvim-theme"
+  use "rafamadriz/neon"
 
   -- LSP
   use "neovim/nvim-lspconfig"
